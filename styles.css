@@ -1,0 +1,47 @@
+body{
+    background-image: url("///home/moringa/Pictures/project%20tma/choose1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+nav{
+    text-align: inline;
+    color:white;
+    padding: 10px;
+    margin-right: 0px;
+    
+}
+nav ul li{
+    padding:10px;
+
+    text-transform: uppercase;
+    text-decoration:none;
+    float:left;
+    list-style: none;
+}
+nav>ul>li>a{
+    padding:10px;
+    display:inline-block;
+    text-transform: uppercase;
+    text-decoration:none;
+    
+}
+nav>ul>li>a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(red, green, blue, alpha)
+}
+#beta{
+    display:inline;
+}
+.about{
+    left:35px;
+    padding:30px;
+    margin: 20px;
+    color:white;
+    font-size: 15px;
+    font-family: "Lucida Console", Monaco, monospace ;
+    
+}
