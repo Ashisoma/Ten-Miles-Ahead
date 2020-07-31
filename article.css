@@ -1,23 +1,24 @@
 body{
-    background-color: slategray;
+    background: linear-gradient(to right, #9c27b0,#8ecdff);
+    position:relative;
+    overflow:hidden;
+    background-size: cover;
     font-family: "Lucida Console", Monaco, monospace ;
 
 }
 
 .first{
-    border:1px ;
-    box-shadow: 5px 10px 8px 10px whitesmoke;
-}
-img{
     float: left;
-    height: 200px;
+    width: 50%;
+    padding: 10px;
+    height: 350px;
+    
 }
-.second{
-    border:1px;
-}
-#wbs{
-    float: left;
-    padding-right: 8px;
+.wbs:after {
+    content: "";
+    display: table;
+    clear: both;
+
 }
 p.side{
     font-family:"Lucida Console", Monaco, monospace ;

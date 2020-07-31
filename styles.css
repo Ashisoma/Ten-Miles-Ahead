@@ -1,6 +1,7 @@
 body{
-    background-image: url("///home/moringa/Pictures/project%20tma/choose1.webp");
-    background-repeat: no-repeat;
+    background: linear-gradient(to right, #9c27b0,#8ecdff);
+    position:relative;
+    overflow:hidden;
     background-size: cover;
 }
 h1{
