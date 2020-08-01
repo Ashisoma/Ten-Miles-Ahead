@@ -1,12 +1,25 @@
 body{
-    background-color: slategray;
+    background: linear-gradient(to right, #9c27b0,#8ecdff);
+    height:300px ;
+    width:100vh;
+    position:overflow;
+    overflow: hidden;
     font-family: "Lucida Console", Monaco, monospace ;
+
+}
+.wbs{
+    text-align: center;
+    border: 1px;
+
 
 }
 
 .first{
     border:1px ;
-    box-shadow: 5px 10px 8px 10px whitesmoke;
+    text-align: center;
+    border:1px solid black;
+    padding: 10px;
+    left:60px;
 }
 img{
     float: left;
@@ -33,6 +46,8 @@ nav{
     color:white;
     padding: 10px;
     margin-right: 0px;
+    left:50px;
+
     
 }
 nav ul li{
@@ -63,13 +78,7 @@ h1{
     padding-top: 10px;
     left:10px;
 }
-
-
-
-.logos{
-    clear:both;
-    float: right;
+.first{
+    
 }
-.slide{
-    float: right;
-}
+

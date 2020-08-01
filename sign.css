@@ -1,11 +1,17 @@
 body{
-    background-color: grey;
+    background: linear-gradient(to right, #9c27b0,#8ecdff);
+    height:300px;
+    width:100vh;
+    position:overflow;
+    overflow: hidden;
+
 }
 nav{
     text-align: inline;
     color:white;
     padding: 10px;
     margin-right: 0px;
+    left:50px;
     
 }
 nav ul li{
